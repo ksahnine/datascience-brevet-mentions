@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# Configure ~./ssh/config file to access to all EC2 instances
-# The giveb 
+# Configure "automagically" the ~./ssh/config file
+# The given parameter is the EC2 key pair name
 
 KeyPairName=$1
 PrivateKey=~/.ssh/${KeyPairName}.pem

@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# Returns public IP addresses of the EC2 instances
-# This script checks if jq is installed on the current system
+# Returns the public IP addresses of the EC2 instances
+# Note that this script checks if jq is installed on the current system
 
 # Checks if jq is installed
 if [ -z "`type jq 2>/dev/null`" ]

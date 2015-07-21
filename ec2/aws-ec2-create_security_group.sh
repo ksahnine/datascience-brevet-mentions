@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Creates a security group whose name is the first given argument
-# Adds a rule for SSH to the security group
+# Adds a SSH access rule to the security group
 
 SGName=$1
 MyPublicIp=`curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//'`
